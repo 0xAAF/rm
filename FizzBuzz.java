@@ -7,7 +7,7 @@ public class FizzBuzz {
 	 String result="";
 	 if (i%3==0) result+="Fizz"; 
 	 if (i%5==0) result+="Buzz";
- 	 if (result.isEmpty()) result = ""+i; //or we can use additional boolean for check
+ 	 if (result.isEmpty()) result = ""+i;
 	 System.out.println(result);
 	}  
  }
