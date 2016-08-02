@@ -73,7 +73,7 @@ public static void main(String[] args) {
 		if (calculated) { 
 			System.out.println(calculator.getString()+ " = "+calculator.getResult());
 		} else {
-			System.out.println("Невверный ввод.");
+			System.out.println("Неверный ввод.");
 		}
 	} 
  }

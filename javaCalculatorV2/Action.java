@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public abstract class Action {
 	private final String name;
-	Action(String name) {
+	public Action(String name) {
 		this.name = name;
 	}
 	public float calculate(ArrayList<Float> value) { 

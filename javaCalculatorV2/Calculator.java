@@ -4,7 +4,7 @@ class Calculator {
 	private final Inputer input;
 	private final ActionList actions;
 	private float result;
-	Calculator (ActionList actions, Validator validator, String delimeter) {
+	public Calculator (ActionList actions, Validator validator, String delimeter) {
 		this.actions=actions;
 		this.input=new Inputer(validator,delimeter);
 	}

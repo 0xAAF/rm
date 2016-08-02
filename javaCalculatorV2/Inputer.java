@@ -7,8 +7,8 @@ public class Inputer {
 	final private ArrayList<Float> values;
 	final private String delimeter;
 	final private Validator validator;
-	String action, line, lineForPrint;
-	Inputer(Validator validator, String delimeter) {
+	private String action, line, lineForPrint;
+	public Inputer(Validator validator, String delimeter) {
 		this.validator=validator;
 		this.delimeter=delimeter;
 		values = new ArrayList();
@@ -22,7 +22,7 @@ public class Inputer {
 	} 
 	private void parse(String line) {
 	
-		line = line.trim();
+		line = line.trim(); //remove whitespace on both side
 		String[] str = line.split(delimeter);
 		if (str.length<3) return;
 		this.action = str[0]; 
