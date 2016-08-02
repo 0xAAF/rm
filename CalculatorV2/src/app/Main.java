@@ -1,6 +1,6 @@
 package app;
  
-public class JavaCalcV2 {
+public class Main {
 
 public static void main(String[] args) {
 	//add validators here
